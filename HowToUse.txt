@@ -1,0 +1,7 @@
+Fruit Search:
+1-DFCheckAround (Searches for fruits near the player and, when detected, makes a distinctive sound and draws a line to the fruit, as well as stops it when running the second script)
+2-FinderWithTP (Moves the character around the map, doesn't make much sense without using the first script)
+
+Instructions:
+Execute 1st script
+Execute 2nd script
