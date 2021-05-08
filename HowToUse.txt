@@ -5,3 +5,5 @@ Fruit Search:
 Instructions:
 Execute 1st script
 Execute 2nd script
+
+you also can use 1st script only just for notify if fruit near you
