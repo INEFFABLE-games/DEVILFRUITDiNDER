@@ -6,6 +6,6 @@ Instructions:
 Execute 1st script
 Execute 2nd script
 
-IF YOU PRESS L BUTTON YOU WILL STOP FinderWithTp SCRIPT!
+also if you open console you can see how many points did you pass
 
 you also can use 1st script only just for notify if fruit near you

@@ -1,11 +1,11 @@
 local plr = game:GetService("Players").LocalPlayer
 local tweening = false
-local uis = game:GetService("UserInputService")
+--local uis = game:GetService("UserInputService")
 plr.Character.FallDamage.Disabled = true
 
-uis.InputBegan:Connect(function(key)
-if(key.KeyCode == Enum.KeyCode.L) then print("Ended") script:Destroy() end
-end)
+--uis.InputBegan:Connect(function(key)
+--if(key.KeyCode == Enum.KeyCode.L) then print("Ended") script:Destroy() end
+--end)
 
 local Positions = {
 
@@ -158,6 +158,7 @@ Vector3.new(7790.57666, 1958.40417, -11975.8848)
 } 
 
 function To(pos)
+
     tweening = true
 	local position = pos
 	local Chr = game.Players.LocalPlayer.Character
