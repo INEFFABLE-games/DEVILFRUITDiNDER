@@ -20,7 +20,7 @@ Vector3.new(-6416, 93, 2155),
 Vector3.new(-6499, 106, 1869),
 Vector3.new(-6529, 207, 2001),
 
-Vector3.new(-4432, 7, -25462),
+Vector3.new(-4432, 7, -2462),
 Vector3.new(-4556, 7, -2282),
 Vector3.new(-4732, 6, -2436),
 Vector3.new(-4787, 7, -2149),
