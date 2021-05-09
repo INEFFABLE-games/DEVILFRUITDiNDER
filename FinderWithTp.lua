@@ -1,5 +1,6 @@
 local plr = game:GetService("Players").LocalPlayer
 local tweening = false
+plr.Character.FallDamage.Disabled = true
 
 local Positions = {
 
