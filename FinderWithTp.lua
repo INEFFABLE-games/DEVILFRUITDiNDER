@@ -1,6 +1,11 @@
 local plr = game:GetService("Players").LocalPlayer
 local tweening = false
+local uis = game:GetService("UserInputService")
 plr.Character.FallDamage.Disabled = true
+
+uis.InputBegan:Connect(function(key)
+if(key.KeyCode == Enum.KeyCode.L) then print("Ended") script:Destroy() end
+end)
 
 local Positions = {
 
@@ -161,7 +166,7 @@ function To(pos)
 		local char = game.Players.LocalPlayer.Character
 		local hm = char.HumanoidRootPart
 		local dist = (hm.Position - position).magnitude
-		_G.tweenspeed = dist/200
+		_G.tweenspeed = dist/150
 		local ti = TweenInfo.new(tonumber(_G.tweenspeed), Enum.EasingStyle.Linear)
 		local tp = {CFrame = CFrame.new(position)}
 		local point = ts:Create(hm, ti, tp)

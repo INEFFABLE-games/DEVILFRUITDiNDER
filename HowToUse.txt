@@ -6,4 +6,6 @@ Instructions:
 Execute 1st script
 Execute 2nd script
 
+IF YOU PRESS L BUTTON YOU WILL STOP FinderWithTp SCRIPT!
+
 you also can use 1st script only just for notify if fruit near you
