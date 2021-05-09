@@ -191,7 +191,7 @@ end
 
 for i = 1,#Positions,1 do
 wait()
-print(i)    
+print(i.."/"..#Positions)    
 To(Positions[i])
 while tweening do wait() end
 end
